@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Animacja</title>
+</head>
+
+<body>
+  <h1>
+    Find out english word:
+  </h1>
+  <div id="wordArea">
+    <h3 id="word"></h3>
+    <button type="button" id="buttonReset">
+      Reset word
+    </button>
+  </div>
+  <div id="letterAdd">
+    <label for="letterInput"></label>
+    <input type="text" id="letterInput" name="letterInput" maxlength="1" pattern="[a-zA-Z]"
+      placeholder="Enter letter...">
+    <button type="button" id="buttonLetter">
+      Check letter
+    </button>
+  </div>
+  <div>
+    <div id="hang">
+      <div id="hang__leftStand"></div>
+      <div id="hang__rightStand"></div>
+      <div id="hang__verticalStand"></div>
+      <div id="hang__midBar"></div>
+      <div id="hang__bar"></div>
+      <div id="hang__line--hide"></div>
+      <div id="hang__head--hide"></div>
+      <div id="hang__torso--hide"></div>
+      <div id="hang__leftArm--hide"></div>
+      <div id="hang__rightArm--hide"></div>
+      <div id="hang__leftLeg--hide"></div>
+      <div id="hang__rightLeg--hide"></div>
+    </div>
+    <h3>Used letters:</h3>
+    <p id="usedLetters"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

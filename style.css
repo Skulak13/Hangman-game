@@ -1,0 +1,154 @@
+#wordArea {
+  display: flex;
+  align-items: center;
+}
+
+#word {
+  height: 20px;
+  width: 200px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#buttonReset {
+  margin-left: 5px;
+}
+
+#hang {
+  position: relative;
+}
+
+#hang__leftStand {
+  width: 10px;
+  height: 60px;
+  background-color: saddlebrown;
+  position: absolute;
+  transform: rotate(35deg);
+  left: 550px;
+}
+
+#hang__rightStand {
+  width: 10px;
+  height: 60px;
+  background-color: saddlebrown;
+  position: absolute;
+  transform: rotate(-35deg);
+  left: 582px;
+}
+
+#hang__verticalStand {
+  width: 10px;
+  height: 100px;
+  background-color: saddlebrown;
+  position: absolute;
+  left: 566.5px;
+  bottom: -10px;
+  border-color: saddlebrown;
+  box-shadow: saddlebrown;
+}
+
+#hang__bar {
+  width: 90px;
+  height: 10px;
+  background-color: saddlebrown;
+  position: absolute;
+  left: 486.5px;
+  bottom: 90px;
+  border-color: saddlebrown;
+  box-shadow: saddlebrown;
+}
+
+#hang__midBar {
+  width: 5px;
+  height: 30px;
+  background-color: saddlebrown;
+  position: absolute;
+  left: 559px;
+  bottom: 68px;
+  border-color: saddlebrown;
+  box-shadow: saddlebrown;
+  transform: rotate(-35deg);
+}
+
+#hang__line--hide {
+  width: 4px;
+  height: 22px;
+  background-color: black;
+  position: absolute;
+  left: 510px;
+  bottom: 68px;
+  display: none;
+}
+
+#hang__head--hide {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  left: 498px;
+  bottom: 40px;
+  display: none;
+}
+
+#hang__torso--hide {
+  height: 35px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  left: 511.5px;
+  bottom: 5px;
+  display: none;
+}
+
+#hang__leftArm--hide {
+  height: 20px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  left: 505.5px;
+  bottom: 15px;
+  transform: rotate(35deg);
+  display: none;
+}
+
+#hang__rightArm--hide {
+  height: 20px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  left: 517.5px;
+  bottom: 15px;
+  transform: rotate(-35deg);
+  border-color: black;
+  box-shadow: black;
+  display: none;
+}
+
+#hang__leftLeg--hide {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  left: 504px;
+  bottom: -17px;
+  transform: rotate(35deg);
+  display: none;
+}
+
+#hang__rightLeg--hide {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  left: 519px;
+  bottom: -17px;
+  transform: rotate(-35deg);
+  display: none;
+}
+
+#usedLetters {
+  height: 150px;
+  width: 300px;
+  border: 2px solid black;
+}
